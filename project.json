@@ -1,0 +1,40 @@
+{
+    "project_type": "javascript",
+
+    "debugMode": 1,
+    "showFPS": true,
+    "frameRate": 60,
+    "id": "gameCanvas",
+    "renderMode": 0,
+    "engineDir": "frameworks/cocos2d-html5",
+
+    "modules": ["cocos2d"],
+
+    "jsList": [
+        "src/resource.js",
+
+        "src/GameEngine.js",
+        "src/GameScene.js",
+        "src/GameLayer.js",
+        "src/GlobalConstants.js",
+        "src/CollisionManager.js",
+
+        "src/Bill/Bill.js",
+        "src/Bill/BillSprite.js",
+
+
+        "src/Terrain/BackgroundManager.js",
+        "src/Terrain/BackgroundLayer.js",
+
+        "src/Bill/BillFSM.js",
+        "src/Bill/BillStateRunNormal.js",
+        "src/Bill/BillStateFallDown.js",
+        "src/Bill/BillStateJump.js",
+        "src/Bill/BillStateSprint.js",
+
+        "src/Terrain/TerrainLayer.js",
+
+        "src/Terrain/TerrainManager.js"
+
+    ]
+}

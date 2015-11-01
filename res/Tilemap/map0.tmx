@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="82" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="image_all_tile" tilewidth="32" tileheight="32">
+  <image source="image_all_tile.png" width="320" height="320"/>
+ </tileset>
+ <layer name="块层 1" width="82" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztkksKwzAMBd1k2WZp5f43TRYWFCH5R02hnYGBQGLp+ZGUAAAAAAAA4F/J3w7wA5y3crs57ot2Stn7aR5pbW6dX/NwfAXf2py9+bW/XNTnkRm1uz2d3NE86Zz7fl6S39Ostl8vv+1dO5NinuzA/hN6LtL773W/fdfK09q12qjfVi7v3Ohdot0zeRARcd4LHaIZFA==
+  </data>
+ </layer>
+ <objectgroup name="physic" width="82" height="20">
+  <object x="0" y="386" width="189" height="32"/>
+  <object x="190" y="418" width="190" height="33"/>
+  <object x="382" y="450" width="98" height="26"/>
+  <object x="481" y="418" width="91" height="30"/>
+  <object x="1025" y="417" width="91" height="31"/>
+  <object x="1119" y="450" width="94" height="31"/>
+  <object x="1214" y="482" width="132" height="30"/>
+  <object x="1345" y="449" width="129" height="33"/>
+  <object x="1473" y="416" width="100" height="32"/>
+  <object x="1569" y="385" width="92" height="32"/>
+  <object x="1659" y="417" width="98" height="65"/>
+  <object x="1759" y="481" width="324" height="31"/>
+  <object x="1889" y="449" width="94" height="33"/>
+  <object x="1920" y="416" width="31" height="31"/>
+  <object x="2080" y="449" width="101" height="35"/>
+  <object x="2177" y="416" width="92" height="32"/>
+  <object x="2267" y="449" width="72" height="32"/>
+  <object x="2337" y="385" width="297" height="63"/>
+  <object x="2561" y="352" width="63" height="34"/>
+  <object x="2593" y="319" width="30" height="32"/>
+  <object x="572" y="449" width="454" height="34"/>
+  <object x="801" y="417" width="189" height="29"/>
+  <object x="865" y="383" width="63" height="33"/>
+ </objectgroup>
+</map>
